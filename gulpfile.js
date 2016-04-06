@@ -130,7 +130,7 @@ gulp.task('demo', function () {
 		}))
 		.pipe(rename('demo.debug.js'))
 		.pipe(gulp.dest('./demo/www/js/'))
-		.pipe(uglify())
+		//.pipe(uglify())
 		.pipe(rename('demo.min.js'))
 		.pipe(gulp.dest('./demo/www/js/'));
 });
@@ -144,7 +144,7 @@ gulp.task('server', function() {
 });
 
 gulp.task('watch', function () {
-	gulp.watch(['./lib/index.js','./demo/src/**/*.js'], ['build']);
+	gulp.watch(['./lib/*.js','./demo/src/**/*.js'], ['build']);
 });
 
 gulp.task('update', ['download', 'get-options']);
