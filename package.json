@@ -16,8 +16,10 @@
     "url": "https://github.com/skratchdot/react-bootstrap-daterangepicker/issues"
   },
   "license": "Apache-2.0",
+  "dependencies": {
+    "fakequery": "git://github.com/peleg/fakeQuery.js.git#c4efd5b388d91ad84447c669843a976a753d886a"
+  },
   "peerDependencies": {
-    "fakequery": "git://github.com/peleg/fakeQuery.js.git#5a9c3bee413bd631e7aee1f86f4c8a7bbd5aee7c",
     "react": ">=0.14.0||>=15.0.0"
   },
   "devDependencies": {
