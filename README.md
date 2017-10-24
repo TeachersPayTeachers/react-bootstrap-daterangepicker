@@ -22,15 +22,11 @@ A date/time picker for react (using bootstrap). This is a react port of:
 var React = require('react');
 var moment = require('moment');
 var DateRangePicker = require('react-bootstrap-daterangepicker');
-var someReactComponent = React.createClass({
-    render: function () {
-        return (
-            <DateRangePicker startDate={moment('1/1/2014')} endDate={moment('3/1/2014')}>
-                <div>Click Me To Open Picker!</div>
-            </DateRangePicker>
-        );
-    }
-});
+var someReactComponent = () => (
+    <DateRangePicker startDate={moment('1/1/2014')} endDate={moment('3/1/2014')}>
+        <div>Click Me To Open Picker!</div>
+    </DateRangePicker>
+);
 ```
 
 3) Include the daterangepicker CSS in your project somewhere. The CSS file is here: [daterangepicker.css](https://raw.githubusercontent.com/skratchdot/react-bootstrap-daterangepicker/master/css/daterangepicker.css) (don't hotlink- download and host your own copy)
