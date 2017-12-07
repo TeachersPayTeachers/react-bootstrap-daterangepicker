@@ -20,7 +20,7 @@
     "fakequery": "git://github.com/peleg/fakeQuery.js.git#v0.0.1"
   },
   "peerDependencies": {
-    "react": ">=16.0.0",
+    "react": ">=15.0.0",
     "moment-timezone": "^0.5.13"
   },
   "devDependencies": {
